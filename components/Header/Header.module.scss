@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 65px;
+  width: 100%;
+  background-color: #1d1d1d;
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 7vw;
+  }
+}
