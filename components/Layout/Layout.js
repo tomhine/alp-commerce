@@ -1,4 +1,4 @@
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import styles from './Layout.module.scss';
 
@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <div className={styles.app}>
       <Header />
       <main className={styles.main}>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
