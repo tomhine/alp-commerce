@@ -1,0 +1,17 @@
+.marketing {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 16px;
+
+  .imagePlaceholder {
+    min-width: 40vw;
+    height: 20vh;
+    background-color: #ccc;
+    border-radius: 8px;
+  }
+
+  .spanTwo {
+    grid-column: span 2;
+  }
+}
