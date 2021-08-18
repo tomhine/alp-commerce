@@ -7,7 +7,7 @@ const SearchBar = () => {
       <form>
         <input type="text" />
       </form>
-      <SearchIcon />
+      <SearchIcon color="#333" />
     </div>
   );
 };
